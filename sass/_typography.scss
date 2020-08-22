@@ -1,0 +1,54 @@
+.heading--1{
+    color: $color-primary-cyan;
+}
+
+.heading--2{
+    &-yellow{
+        color: $color-primary-bright-yellow;
+    }
+
+    &-light-gray{
+        color:$color-neural-light-gray;
+    }
+}
+
+.paragraph{
+    &--grayish-blue{
+        color: $color-neural-grayish-blue;
+    }
+
+    &--light-gray{
+        color:$color-neural-light-gray;
+    }
+}
+
+.price{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.btn{
+    background-color: $color-primary-bright-yellow;
+    color:$color-neural-light-gray; 
+    width: 100%;
+    
+    height: 3rem;
+    outline:none;
+    border: none;
+    border-radius: .2rem;
+    color:rgba($color-white, .9);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 3rem;
+    box-shadow: 0rem .5rem .5rem rgba($color: #000000, $alpha: .2);
+
+    &:hover{
+        transform: scale(1.1);
+        color:rgba($color-white, 1);
+    }
+}
+
+
+
+
