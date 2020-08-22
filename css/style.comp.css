@@ -6,31 +6,36 @@
   box-sizing: inherit; }
 
 html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-size: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
   font-family: "Karla", sans-serif;
   line-height: 1.8; }
+  @media only screen and (max-width: 62.5em) {
+    html {
+      height: auto; } }
 
 .container {
   width: 50vw;
-  height: auto;
+  margin-top: 1rem;
   border: 1px solid black;
-  justify-self: center;
-  align-self: center; }
+  display: grid;
+  align-content: center; }
   @media only screen and (max-width: 62.5em) {
     .container {
-      width: 60vw; } }
+      width: 70vw; } }
   @media only screen and (max-width: 31.25em) {
     .container {
       width: 70vw; } }
   @media only screen and (max-width: 23.4375em) {
     .container {
-      width: 90vw; } }
+      width: 80vw; } }
 
 .header {
   background-color: #fff;
@@ -38,8 +43,7 @@ html {
 
 .bottom {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: auto; }
+  grid-template-columns: repeat(2, 1fr); }
   @media only screen and (max-width: 62.5em) {
     .bottom {
       grid-template-columns: 1fr; } }
