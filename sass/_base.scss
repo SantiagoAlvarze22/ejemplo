@@ -9,6 +9,8 @@
 
 
 html{
+    padding: 0;
+    margin:0;
     box-sizing: border-box;
     font-size: 1rem; //16px
     display:flex;
@@ -21,21 +23,25 @@ html{
 }
 
 .container{
+    margin-top:1rem;
     width: 50vw;
-    height: auto;
     border: 1px solid black;
     justify-self:center;
     align-self:center;
 
     @media only screen and (max-width:$bp-tablet ){
-        width: 60vw;
+        width: 70vw;
+        height: auto;
+        margin-top:50vh;
     }
 
     @media only screen and (max-width:$bp-small-tablet ){
         width: 70vw;
+        margin-top:25vh;
     }
 
     @media only screen and (max-width:$bp-mobile ){
-        width: 90vw;
+        width: 100vw;
+        
     }
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
