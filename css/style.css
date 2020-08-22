@@ -13,29 +13,29 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  height: 100%;
+  align-items: center;
   font-family: "Karla", sans-serif;
   line-height: 1.8; }
 
 .container {
-  margin-top: 1rem;
   width: 50vw;
-  border: 1px solid black;
+  height: auto;
   justify-self: center;
-  align-self: center; }
+  align-self: center;
+  margin-top: 1rem;
+  border: 1px solid black; }
   @media only screen and (max-width: 62.5em) {
     .container {
       width: 70vw;
-      height: auto;
-      margin-top: 50vh; } }
+      height: auto; } }
   @media only screen and (max-width: 31.25em) {
     .container {
-      width: 70vw;
-      margin-top: 25vh; } }
+      width: 70vw; } }
   @media only screen and (max-width: 23.4375em) {
     .container {
-      width: 100vw; } }
+      width: 90vw; } }
 
 .header {
   background-color: #fff;

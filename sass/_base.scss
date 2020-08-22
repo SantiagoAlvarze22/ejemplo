@@ -16,32 +16,35 @@ html{
     display:flex;
     flex-direction:column;
     justify-content:center;
+    justify-items: center;
     align-items:center;
-    height: 100%;
+    align-items: center;
     font-family: $font-primary;
     line-height: 1.8;
 }
 
 .container{
-    margin-top:1rem;
     width: 50vw;
-    border: 1px solid black;
+    height: auto;
     justify-self:center;
     align-self:center;
+    margin-top:1rem;
+    border: 1px solid black;
+
 
     @media only screen and (max-width:$bp-tablet ){
         width: 70vw;
         height: auto;
-        margin-top:50vh;
+        
     }
 
     @media only screen and (max-width:$bp-small-tablet ){
         width: 70vw;
-        margin-top:25vh;
+       
     }
 
     @media only screen and (max-width:$bp-mobile ){
-        width: 100vw;
+        width: 90vw;
         
     }
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
